@@ -1,0 +1,121 @@
+.headerColor{
+  background: rgb(32, 230, 81);  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, rgb(0, 0, 0), #919191, rgb(255, 255, 255));  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, rgb(0, 0, 0), #919191, rgb(255, 255, 255)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+body{
+  background-image: url('../images/retina-display.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+  color: white;
+}
+.homeBanner{
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+}
+.homeBanner h1{
+  font-size: 64px;
+  font-weight: bolder;
+}
+.homeBanner hr {
+border-top: 7px groove white;
+width: 100%;
+margin: auto;
+}
+.projects{
+display: flex;
+}
+
+.links{
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  height: 50%;
+  width: 50%;
+}
+
+.links i {
+  color:  white;
+  font-size: 5em;
+}
+
+
+.contactBody {
+  margin: auto;
+  background-image: url('../images/retina-display.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 66px;
+  padding-right: 5rem;
+}
+
+.aLive{
+  float: left;
+}
+.aGitHub{
+  float: right;
+}
+/* .Quizness{
+  /* height: 450px;
+  width: 170px;
+} */
+
+.nameLink{
+  color: black;
+}
+i.material-icons{
+  color: black;
+  background-color: white;
+}
+.mdl-layout__drawer-button{
+  background-color: white;
+}
+
+
+.projectTabs{
+color: white;
+text-emphasis-color: white;
+}
